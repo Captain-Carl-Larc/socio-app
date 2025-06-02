@@ -20,7 +20,7 @@ app.use(express.json());
 app.get('/', (req, res) => {
     const requestMethod = req.method; // Get the HTTP method of the request
     res.send('API is running...');
-    res.status(200).json({ message: 'API is running...', method: requestMethod });
+    //res.status(200).json({ message: 'API is running...', method: requestMethod });
 });
 
 // Mount Authentication Routes
