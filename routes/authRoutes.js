@@ -10,6 +10,4 @@ const authController = require('../controllers/authController');
 // @access  Public
 router.post('/register', authController.registerUser);
 
-// You'll add more routes here later (e.g., login)
-router.post('/login', authController.loginUser);
 module.exports = router;
