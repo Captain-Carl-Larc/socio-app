@@ -1,2 +1,22 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local .pnpm-store (if outside project root)
+.pnpm-store/
+
+# OS generated files
+.DS_Store
+Thumbs.db
